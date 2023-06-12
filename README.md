@@ -1,4 +1,4 @@
-# sungilhomepage
+# lostarkhomepage
 <br><br><br>
 ## 화면
 ![image](https://github.com/gkstmdrb/sungilhomepage/assets/114748816/ef9ca13f-b286-4f5f-bd36-f80ea427130a)
