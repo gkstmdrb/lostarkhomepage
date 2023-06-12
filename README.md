@@ -110,18 +110,6 @@ index.html
 			</div>	
 		</div>
 	</header>
-	<section>
-				<div class="imgs">
-					<img src='img/mokoko.jpg'>
-					<img src='img/mokoko1.jpg'>
-					<img src='img/mokoko2.png'>
-					<img src='img/mokoko3.jpg'>
-					<img src='img/mokoko4.png'>
-					<div class="welcome">
-						<h2><span>성일정보고등학교에 오신 것을 환영합니다.</span></h2>
-					</div>
-				</div>
-	</section>
 <!-- 아이디 page의 끝 -->
 </body>
 </html>
@@ -141,14 +129,13 @@ index.html
 }
 
 header {
-
 	height: 120px;
 	margin-top: 10px;
 	
 }
 
 .logo {
-	
+	float: left;
 }
 
 li {
@@ -162,22 +149,21 @@ li {
 a {
 	color: inherit;
 	text-decoration: none;
-	float: left;
+	float: center;
 }
 
 .main-menu {
-	
-	height: 50px;
+	height: 85px;
 	margin-top: -10px;
 	background-color: black;
-	line-height: 50px;
+	line-height: 80px;
 	color: white;
 	list-style:none;
 }
 
 .main-menu li {
 	float: left;
-	width: 150px;
+	width: 140px;
 	text-align: center;
 }
 
@@ -254,7 +240,4 @@ section {
 	padding: 5px;
 	text-align:center;
 }
-
-
-
 ```
