@@ -109,7 +109,6 @@ index.html
 						<a href="https://accounts.onstove.com/login?inflow_path=lost_ark&game_no=45&redirect_url=https%3A%2F%2Flostark.game.onstove.com%2FMain">LOGIN</a>
 					</li>			
 				</ul>
-				<img src="img/Logo.png">
 			</div>	
 		</div>
 	</header>
@@ -137,6 +136,11 @@ header {
 	
 }
 
+body {
+	background: url(../img/3dd4eb3240cfb896831be84c7d0e7094.jpg);
+	background-size: 1920px 961px;
+}
+
 .logo {
 	float: left;
 }
@@ -156,7 +160,7 @@ a {
 }
 
 .main-menu {
-	height: 85px;
+	height: 80px;
 	margin-top: -10px;
 	background-color: black;
 	line-height: 80px;
@@ -166,7 +170,7 @@ a {
 
 .main-menu li {
 	float: left;
-	width: 140px;
+	width: 95px;
 	text-align: center;
 }
 
@@ -177,7 +181,7 @@ a {
 
 .sub {
 	position: absolute;
-	width: 150px;
+	width: 95px;
 	background-color: black;
 	display: none;
 	z-index: 1;
@@ -209,8 +213,7 @@ section {
 }
 
 .imgs>img {
-	position: absolute;
-	transition: all 2s;
+	
 }
 
 .welcome {
@@ -235,6 +238,14 @@ section {
 	color: black;
 }
 
+.table tr>th {
+	padding: 5px;
+}
+
+.table tr>td {
+	padding: 5px;
+	text-align:center;
+}
 .table tr>th {
 	padding: 5px;
 }
